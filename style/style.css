@@ -1,0 +1,107 @@
+ /*:root {
+   color-scheme: light dark;
+}*/
+body{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.article-iam {
+
+    background-image: url(../images/personajeilu.png);
+    background-size: cover;
+    background-position: bottom;
+    padding: 250px 50px;
+    /*margin: 100px 50px;*/
+    color: white;
+
+}
+.section-iam {
+    font-size: 100px;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.rd-navbar-nav{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;;
+}
+
+.rd-nav-item{
+    background-color: azure;
+    padding: 30px 12%;
+    /*margin: 50px;*/
+    border: 1px solid;
+    border-color: black;
+
+}
+.rd-nav-link{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    border: color( black);
+}
+
+.est-arti{
+    background-image: url('../images/prueba_imagen.png');
+    background-size:cover ;
+    background-position: center;
+    margin: 0px;
+    padding: 20px 0px 100px 0px;
+    color: black;
+}
+
+.est-arti h2 {
+    color: white;
+}
+
+.est-section{
+    float: right;
+}
+.est-arti h2{
+    text-align: center;
+    font-size: 300%;
+    margin: 0px ;
+}
+.est-01{
+    background-color: none;
+    border: 5px solid white;
+    color: white;
+    border-radius: 1cm;
+    padding: 20px;
+    margin: 4% 0px 0px 30%;
+    width: 300px;
+    height: 300px;
+    font-size: 19px;
+}
+
+.est-02{
+    background-color: none;
+    border: 5px solid white;
+    color: white;
+    border-radius: 1cm;
+    padding: 20px;
+    margin: -5% 0px 0px 50%;
+    width: 300px;
+    height: 300px;
+    font-size: 19px;
+}
+.est-03{
+    background-color: none;
+    border: 5px solid white;
+    color: white;
+    border-radius: 1cm;
+    padding: 20px;
+    margin: -10% 0px 0px 30%;
+    width: 300px;
+    height: 300px;
+    font-size: 19px;
+}
+H3{
+    text-align: center;
+    display: flex;
+}

@@ -1,0 +1,24 @@
+.art-crc{
+    margin: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+.title-carr{
+    font-size: 75px;
+}
+
+.efecto-zoom{
+    display: inline-block;
+    overflow: hidden;
+}
+
+.efecto-zoom img {
+    margin: 0% ;
+    width: 450px;
+    height: 815px;
+    transition: transform 0.3s ease;
+}
+
+.efecto-zoom:hover img {
+    transform: scale(1.2);
+}

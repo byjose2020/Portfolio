@@ -1,0 +1,27 @@
+/* Opcional: Centrar el texto para que se vea mejor */
+
+/* Estilos base del texto */
+.section-iam {
+ 
+  
+  white-space: nowrap; /* Evita que el texto salte de línea */
+  border-right: 3px solid none; /* Simula el cursor de la máquina */
+  width: 100%;
+  max-width: 32ch; /* IMPORTANTE: 'ch' representa el número de caracteres (ajusta este número a la longitud de tu texto) */
+  overflow: hidden;
+  
+  /* Llamamos a las animaciones */
+  animation: escribir 3.5s steps(25, end) infinite, parpadeo 0.75s step-end infinite;
+}
+
+/* Animación que revela el texto carácter por carácter */
+@keyframes escribir {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Animación del cursor parpadeando */
+@keyframes parpadeo {
+  from, to { border-color: transparent; }
+  50% { border-color: #fff; }
+}

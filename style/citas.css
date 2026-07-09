@@ -1,0 +1,127 @@
+/* Caja blanca principal */
+
+
+body {
+  background-image: url(../images/prueba_imagen.png);
+}
+
+.menu-container {
+  background-color: #ffffff74;
+  border: 1px solid black;
+  padding: 75px;
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  
+  border-radius: 1cm;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 1);
+  
+  /* Esto obliga a que el título y el grupo de botones se apilen verticalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Espacio entre el título y los iconos */
+  margin-top: 75px;
+}
+
+/* Estilo del título */
+.menu-title {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+/* Contenedor de las opciones (los iconos) */
+.buttons-group {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row; /* Los iconos van uno al lado del otro */
+  justify-content: center;
+  gap: 30px; /* Espacio horizontal entre cada opción */
+}
+
+/* Cada opción individual (Icono + Texto) */
+.btn-item {
+  display: flex;
+  flex-direction: column; /* El icono arriba y el texto abajo */
+  align-items: center;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: black;
+}
+
+.btn-item img {
+  width: 40px; /* Ajusta el tamaño de tus iconos */
+  height: 40px;
+  margin-bottom: 5px; /* Espacio entre el icono y su texto */
+}
+
+.text-al {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  font-size: 40px;
+}
+
+.menu-info {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 75px;
+  width: 50%;
+  margin: 40px auto;
+  text-align: left;
+  
+  border-radius: 1cm;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 1);
+  
+  /* Esto obliga a que el título y el grupo de botones se apilen verticalmente */
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espacio entre el título y los iconos */
+}
+
+.lb-text {
+
+  display: flex;
+  flex-direction: column;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: black;
+  margin-top: 40px;
+}
+
+.ib-inp {
+  margin-top: 15px;
+  width: 100%;
+  height: 30px;
+}
+
+.lb-fecha {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.div-button {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.lb-button {
+  color: blue;
+  background-color: aqua;
+  height: 75px;
+  width: 200px;
+  border-radius: 0.2cm;
+  cursor: pointer;
+  font-size: 1.3rem;
+
+}
+

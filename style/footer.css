@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+footer {
+    background-color: #262626;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.art-foot{
+    /*padding: 100px;*/
+    color: white;
+    
+}
+
+.art-foot h2{
+    font-size: 50px;
+    padding: 100px 0px 0px 400px;
+}
+
+.sec-foot{
+    color: white;
+    font-size:20px;
+    padding: 25px 0px 0px 400px;
+}
+
+
+.solcial-reds{
+    padding: 25px; 
+    /*text-align: right;*/
+    margin: 0%  20%;
+}
+
+.logos{
+    border-radius: 0.5cm;
+    width: 75px;
+ }
+

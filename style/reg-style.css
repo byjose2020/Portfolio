@@ -1,0 +1,68 @@
+:root{
+    color-scheme: light dark;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(../images/prueba.jpg);
+}
+
+
+.h1 {
+    display: flex;
+    justify-content: center;
+}
+.art-reg {
+    background-image: url(../images/personajeilu.png);
+    border-radius: 1cm;
+    width: 700px;
+    height: 700px;
+    margin: -10%, 0px, 0px, 30%;
+    padding: 20px;
+    font-size: 19px;
+    box-sizing: border-box;
+
+}
+
+.sec-reg {
+    
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.sec-reg2P{
+    position: relative;
+    width: 300px;
+    margin: 20px 0;
+}
+
+.inp{
+    height: 75px;
+    width: 500px;
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    height: 100px ;
+    width: 200px ;
+    background-color: pink;
+}
+.bot2 {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 18px;
+    padding: 0;
+}
